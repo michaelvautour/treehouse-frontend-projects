@@ -1,13 +1,21 @@
+* {
+    margin:0;
+    padding:0; 
+  }
+
+header {
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 25px;
+}
+
 body {
     text-align: center;
-    margin: 0;
-    padding: 0;
-    border:  1px solid blue;
-    background-color: rgb(245, 236, 236);
+    /* border:  1px solid blue; */
 }
 
 nav ul {
-    margin-right: 45px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 nav li {
@@ -21,35 +29,85 @@ nav li {
     color: red;
 }
 
+section {
+    background-color: white;
+}
+
 nav a {
     color: black;
     font-size: 25px;
     text-decoration: solid;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
+footer a {
+    text-transform: uppercase;
+    float: right;
+    padding-bottom: 35px;
+    color: black;
+    text-decoration: solid;
+}
+
+.footer-name {
+    float: left;
+    margin-left: 20px;
+    /* font-size: 1em; */
+}
+
+footer {
+    font-size: 1em;
+    margin: 10px;
+    padding-top: 25px;
+    font-weight: bold;
+
+}
+
 img {
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 
-p {
-    margin: 2em;
+.img-port-small {
+    width: 50%;
+    height: 50%;
+    padding-top: 50px;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3 {
-    font-size: 25px;
+    margin: 1em;
+    font-size: 1.75em;
+    font-family: 'Raleway', sans-serif;
 }
 
-.lowerhalf {
-    background-color: rgb(228, 222, 222);
+section p,
+header p {
+    margin: 2em;
+    font-size: 1.25em;
+}
+
+div p {
+    padding-bottom: 15px;
+}
+
+.solid {
+    color: black;
+    text-decoration: solid;
 }
 
 .clearfix::after {
@@ -57,3 +115,18 @@ h3 {
     display: table;
     clear: both;
   }
+  
+.bottom-border {
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+    width: 75%;
+    margin: auto;
+}
+
+.bottom-color {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */

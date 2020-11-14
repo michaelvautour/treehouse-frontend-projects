@@ -5,7 +5,8 @@
   <title>Michael Vautour's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
 </head>
 
   <body>
@@ -15,12 +16,12 @@
         <h1 id="Home">Student Name</h1>
         <nav>
             <ul>
-            <li><a href="#Home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
             <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
-        <img src="./images/responsive-layout-profile.png" alt="Profile Picture">
+        <img src="./images/responsive-layout-profile.png" alt="Profile Picture" class="img-port-small">
         <p>Hi! I'm a front-end developer who loves resposive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </header>
 
@@ -66,24 +67,26 @@
 
         </div>
 
-        <div class='lowerhalf'>
+
+    </main>
+    <div class="bottom-color">
+        <div class="bottom-border">
             <h2 id="Contact">Contact</h2>
-            <h3>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</h3>
-            <p>Phone: +1 (111) 555-1234</p>
-            <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <p>Phone: <b>+1 (111) 555-1234</b></p>
+            <p>Email: <b><a href="mailto:email@yoursite.com" class="solid">email@yoursite.com</b></a></p>
 
         </div>
-    </main>
-
-    <footer class='lowerhalf clearfix'>
-        <h4>Student name</h4>
-        
-        <!-- <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        <ul> -->
-    </footer>
-  
+        <footer class='clearfix'>
+            <p class="footer-name">Student name</p>
+            <p><a href="#Home">Back to Top</a></p>
+            
+            <!-- <ul>se
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            <ul> -->
+        </footer>
+    </div>  
 </body>
-  </html>
+</html>
