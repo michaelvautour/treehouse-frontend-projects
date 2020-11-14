@@ -6,6 +6,7 @@
 header {
     background-color: rgb(245, 245, 245);
     padding-bottom: 25px;
+    overflow: hidden;
 }
 
 body {
@@ -130,3 +131,45 @@ div p {
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; */
+
+@media screen and (min-width: 768px) {
+    
+    nav li {
+        display: inline-block;
+        background-color: rgb(245, 245, 245);
+
+    }
+
+    .img-port-small {
+        width: 45%;
+        height: 45%;
+        float: right;
+        clear: both;
+        padding-right: 25px;
+    }
+
+    header p {
+        padding-top: 50px;
+        font-size: 1.5em;
+    }
+
+    section {
+        width: 50%;
+        float: left;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    section {
+        width: 30%;
+        float: left;
+        padding-left: 30px;
+    }
+
+    header p {
+        padding-top: 50px;
+        font-size: 2em;
+    }
+
+  }
